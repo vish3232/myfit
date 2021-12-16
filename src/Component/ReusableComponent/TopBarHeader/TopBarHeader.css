@@ -1,0 +1,205 @@
+/*top-bar-main-container start*/ 
+.top-bar-main-container{
+    margin-top: 30px;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background-color: #f9f9f9;
+}
+/*top-bar-main-container end*/ 
+
+/*search-bar-main-container start*/ 
+.search-bar-main-container{
+    width: 573px;
+    height: 66px;
+    /* UI Properties */
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+    border-radius: 33px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+/*search-bar-main-container end*/ 
+
+/*search-icon start*/ 
+.search-icon{
+    color:#B3B3B3;
+    font-size: 27px;
+    margin-left: 38px;
+}
+/*search-icon end*/ 
+
+/*search-icon-input start*/ 
+.search-bar-textinput{
+    border: none;
+    background-color:#EFEFEF ;
+    margin-left: 20px;
+    text-align: left;
+font: normal normal normal 18px/24px Segoe UI;
+letter-spacing: 0px;
+color: #B3B3B3;
+opacity: 1;
+    
+}
+/*search-icon-input end*/ 
+
+/*profile-and-icon-container start*/ 
+.profile-and-icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+/*profile-and-icon-container end*/ 
+
+/*notification-container start*/ 
+.notification-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+     /* UI Properties */
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/*notification-container end*/ 
+.notification-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+     /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/*notifications-icon start*/ 
+.notifications-icon{
+    
+    font-size: 25px;
+    border-color: #666F76;
+    border-width: 2px;
+    
+}
+/*notifications-icon end*/ 
+.notifications-icon-counter-container{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 20px;
+height: 20px;
+border-radius: 10px;
+/* UI Properties */
+background: #00B1EC 0% 0% no-repeat padding-box;
+opacity: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.counter-header{
+    text-align: left;
+font: normal normal medium 16px/19px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1
+}
+
+/*msg-container start*/ 
+.msg-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    /* UI Properties */
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/*msg-container end*/ 
+.msg-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+/*msg-icon start*/ 
+.msg-icon{
+    
+    font-size: 25px;
+    border-color: #666F76;
+    border-width: 2px;
+    
+}
+/*msg-icon end*/ 
+
+.msg-counter-container{
+    z-index: 10;
+    position: absolute;
+    top: 5px;
+    right: -5px;
+ 
+    width: 20px;
+height: 20px;
+border-radius: 10px;
+/* UI Properties */
+background: #00B1EC 0% 0% no-repeat padding-box;
+opacity: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.msg-counter-header{
+    text-align: left;
+    font: normal normal medium 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*profile-name-header start*/ 
+.profile-name-header{
+    margin-left: 71px;
+    text-align: right;
+letter-spacing: 0px;
+color: #434343;
+opacity: 1;
+}
+/*profile-name-header end*/ 
+
+/*position-header start*/ 
+.position-header{
+    text-align: right;
+font: normal normal 600 11px/14px Montserrat;
+letter-spacing: 0px;
+color: #434343;
+opacity: 1;
+}
+/*position-header end*/ 
+
+/*profile-container start*/ 
+
+.profile-container{
+    margin-left: 12px;
+    width: 62px;
+height: 62px;
+background-color: #B3B3B3;
+border-radius: 31px;
+}
+/*profile-container end*/ 
