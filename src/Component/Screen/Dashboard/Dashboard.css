@@ -18,6 +18,8 @@ justify-content: space-around;
 }
 /*top-bar-main-container end*/ 
 
+/*feature-name-header start*/ 
+
 .feature-name-header{
     text-align: left;
 font: normal normal bold 20px/24px Montserrat;
@@ -26,6 +28,9 @@ color: #646D82;
 text-transform: uppercase;
 opacity: 1;
 }
+/*feature-name-header end*/ 
+
+/*routing-path-container start*/ 
 
 .routing-path-container{
     text-align: left;
@@ -34,6 +39,9 @@ letter-spacing: 0px;
 color: #0088FF;
 opacity: 1;
 }
+/*routing-path-container end*/ 
+
+/*Add-new-plan-container start*/ 
 
 .Add-new-plan-container{
     margin-left: 35%;
@@ -47,6 +55,9 @@ flex-direction: row;
 align-items: center;
 justify-content: flex-start;
 }
+/*Add-new-plan-container end*/ 
+
+/*add-icon-container start*/ 
 
 .add-icon-container{
     width: 54px;
@@ -61,11 +72,19 @@ align-items: center;
 justify-content: center;
 }
 
+/*add-icon-container end*/ 
+
+/*add-icon start*/ 
+
 .add-icon{
 color: #229480;
 font-size: 30px;
 font-weight: bold;
 }
+/*add-icon end*/ 
+
+
+/*add-new-plan-header start*/ 
 
 .add-new-plan-header{
     margin-left: 18px;
@@ -75,6 +94,10 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
+
+/*add-new-plan-header end*/ 
+
+/*search-bar-container start*/ 
 
 .search-bar-container{
     margin-top: 40px;
@@ -90,6 +113,9 @@ justify-content: space-between;
 padding-left: 19px;
 padding-right: 19px;
 }
+/*search-bar-container end*/ 
+
+/*input-container start*/ 
 
 .input-container{
     width: 80%;
@@ -102,12 +128,18 @@ border:none;
 height: 30px;
 
 }
+/*input-container end*/ 
+
+/*search-icon-container start*/ 
 
 .search-icon-container{
     border-left: #EFEFEF;
     border-left-width: 1px;
     border-left-style: solid;
 }
+/*search-icon-container end*/ 
+
+/*cardList-main-container start*/ 
 
 .cardList-main-container{
     margin-top: 55px;
@@ -117,3 +149,4 @@ height: 30px;
     align-items: center;
     justify-content: space-around;
 }
+/*cardList-main-container end*/ 
