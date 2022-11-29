@@ -4,6 +4,7 @@ import TopBarHeader from './Component/ReusableComponent/TopBarHeader/TopBarHeade
 import Dashboard from './Component/Screen/Dashboard/Dashboard';
 import Workout from './Component/ReusableComponent/Workout/Workout';
 import AddExercise from './Component/Screen/AddExercise/AddExercise';
+/* Hi there checking detials */
 function App() {
   return (
     <div style={{width:'100%',height:'100%'}} >
